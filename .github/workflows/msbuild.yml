@@ -46,4 +46,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: build results
-        path: ${{env.GITHUB_WORKSPACE}}\x64
+        path: x64
